@@ -1,3 +1,6 @@
 <h1>Hello World</h1>
 <%= react_component("HelloWorldApp", props: @hello_world_props, prerender: false) %>
 
+<hr/>
+
+<%= react_component("MessageApp", props: { text: "Time to visit Maui!" }) %>
